@@ -23,8 +23,4 @@ _No known bugs at this time_
 
 _It's all ruby, baby._
 
-### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
 Copyright (c) 2017 **_Elrey Belmonti and Dan Nollette_**
