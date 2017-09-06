@@ -7,7 +7,7 @@ end
 player_one_wins = 0
 player_two_wins = 0
 ties = 0
-10.times{
+5.times{
 
   player_one = ""
   while (player_one != "rock") && (player_one != "paper") && (player_one != "scissors")
@@ -18,13 +18,14 @@ ties = 0
 
   100.times{ puts "__________"}
 
-  player_two = ""
+  hands = ['rock', 'paper','scissors']
+  player_two = hands[rand(3)]
 
-  while (player_two != "rock") && (player_two != "paper") && (player_two != "scissors")
-    puts "Player two; what are you throwing?"
-
-    player_two = gets.chomp
-  end
+  # while (player_two != "rock") && (player_two != "paper") && (player_two != "scissors")
+  #   puts "Player two; what are you throwing?"
+  #
+  #   player_two = gets.chomp
+  # end
 
 
   if player_one.beats?(player_two)
